@@ -1,0 +1,8 @@
+<div class="card">
+    <h1 class="card_title">Home Component</h1>
+    <p class="card_text">This is the home component</p>
+
+    <div class="profiles">
+        <a class="profile_link" routerLink="{{user.name}}" *ngFor="let user of users">{{ user.name }}'s Profile</a>
+    </div>
+</div>

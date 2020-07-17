@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 1em;
+    
+    
+    .card_title {
+        align-self: center;
+    }
+
+    .card_text {
+        align-self: center;
+    }
+}
+
+.profiles {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    .profile_link {
+        margin: .25em 0;
+    }
+}

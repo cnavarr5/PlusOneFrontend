@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 1em;
+    
+    
+    .card_title {
+        align-self: center;
+    }
+
+    .card_text {
+        align-self: center;
+    }
+}

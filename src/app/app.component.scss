@@ -1,0 +1,25 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.navigation {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 1em 0 1em 5em;
+    
+    .title {
+        font-size: 2em;
+        padding: 0 1em;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+
+        .nav-item {
+            margin: 0 1em 0 1em;
+        }
+    }
+}
+
+.container {
+    margin: 2em 20em;
+}
